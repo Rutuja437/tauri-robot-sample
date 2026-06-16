@@ -1,28 +1,28 @@
-{"level":30,"time":"2026-06-15T10:58:39.818Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Listening on 127.0.0.1:54909"}
-{"level":30,"time":"2026-06-15T10:58:39.898Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-06-15T10:58:40.195Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Adding browser to stack: chromium, version: 143.0.7499.4"}
-{"level":30,"time":"2026-06-15T10:58:40.197Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-06-15T10:58:40.197Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-06-15T10:58:40.204Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-06-15T10:58:40.205Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@8820250134a895f67c42f7fae300e476\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=7bdd6232-65ec-42dd-8e5b-89c7374606e0\"}"}
-{"level":30,"time":"2026-06-15T10:58:40.217Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Setting default timeout for context context=d155d0d8-e8cb-4ecd-9cad-4ed61b26b700 to 10000"}
-{"level":30,"time":"2026-06-15T10:58:40.217Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Changed active context: context=d155d0d8-e8cb-4ecd-9cad-4ed61b26b700"}
-{"level":30,"time":"2026-06-15T10:58:40.452Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Video path: undefined"}
-{"level":30,"time":"2026-06-15T10:58:40.453Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Changed active page"}
-{"level":30,"time":"2026-06-15T10:58:40.754Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method newPage"}
-{"level":30,"time":"2026-06-15T10:58:40.768Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-06-15T10:58:40.769Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Strict mode is enabled, find Locator with [data-testid=\"name-input\"] in page."}
-{"level":30,"time":"2026-06-15T10:58:40.891Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method fillText"}
-{"level":30,"time":"2026-06-15T10:58:40.898Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method click"}
-{"level":30,"time":"2026-06-15T10:58:40.899Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Strict mode is enabled, find Locator with [data-testid=\"submit-btn\"] in page."}
-{"level":30,"time":"2026-06-15T10:58:40.963Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method click"}
-{"level":30,"time":"2026-06-15T10:58:40.968Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method getText"}
-{"level":30,"time":"2026-06-15T10:58:40.968Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Strict mode is enabled, find Locator with [data-testid=\"greeting-msg\"] in page."}
-{"level":30,"time":"2026-06-15T10:58:41.028Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Retrieved text for element [data-testid=\"greeting-msg\"] containing Hello Rutuja"}
-{"level":30,"time":"2026-06-15T10:58:41.028Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method getText"}
-{"level":30,"time":"2026-06-15T10:58:41.033Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2026-06-15T10:58:41.043Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Removed page=5b1dacf1-2964-4e4a-bb47-69d97944cf5a from context=d155d0d8-e8cb-4ecd-9cad-4ed61b26b700 page stack"}
-{"level":30,"time":"2026-06-15T10:58:41.286Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2026-06-16T10:58:01.675Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Listening on 127.0.0.1:62197"}
+{"level":30,"time":"2026-06-16T10:58:01.989Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-06-16T10:58:02.087Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Adding browser to stack: chromium, version: 143.0.7499.4"}
+{"level":30,"time":"2026-06-16T10:58:02.087Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-06-16T10:58:02.088Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-06-16T10:58:02.100Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-06-16T10:58:02.100Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@5e826094b516e573d042dee229d07b64\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=3c83aa93-aa65-4d37-bb89-4d71dacc6ad9\"}"}
+{"level":30,"time":"2026-06-16T10:58:02.113Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Setting default timeout for context context=60ef30f8-5712-4ae3-86f7-f186fc72f558 to 10000"}
+{"level":30,"time":"2026-06-16T10:58:02.113Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Changed active context: context=60ef30f8-5712-4ae3-86f7-f186fc72f558"}
+{"level":30,"time":"2026-06-16T10:58:02.251Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Video path: undefined"}
+{"level":30,"time":"2026-06-16T10:58:02.251Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Changed active page"}
+{"level":30,"time":"2026-06-16T10:58:02.379Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method newPage"}
+{"level":30,"time":"2026-06-16T10:58:02.384Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-06-16T10:58:02.385Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Strict mode is enabled, find Locator with [data-testid=\"name-input\"] in page."}
+{"level":30,"time":"2026-06-16T10:58:02.444Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method fillText"}
+{"level":30,"time":"2026-06-16T10:58:02.449Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method click"}
+{"level":30,"time":"2026-06-16T10:58:02.450Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Strict mode is enabled, find Locator with [data-testid=\"submit-btn\"] in page."}
+{"level":30,"time":"2026-06-16T10:58:02.492Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method click"}
+{"level":30,"time":"2026-06-16T10:58:02.496Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method getText"}
+{"level":30,"time":"2026-06-16T10:58:02.496Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Strict mode is enabled, find Locator with [data-testid=\"greeting-msg\"] in page."}
+{"level":30,"time":"2026-06-16T10:58:02.531Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Retrieved text for element [data-testid=\"greeting-msg\"] containing Hello Rutuja"}
+{"level":30,"time":"2026-06-16T10:58:02.531Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method getText"}
+{"level":30,"time":"2026-06-16T10:58:02.535Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-06-16T10:58:02.542Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Removed page=24488c4c-5656-4b11-8b1f-7af2367ca249 from context=60ef30f8-5712-4ae3-86f7-f186fc72f558 page stack"}
+{"level":30,"time":"2026-06-16T10:58:02.639Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:12672:15)
@@ -36,8 +36,28 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2026-06-15T10:58:41.296Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-06-15T10:58:41.297Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-06-16T10:58:02.651Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-06-16T10:58:02.652Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-06-16T10:58:02.661Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-06-16T10:58:02.661Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-06-16T10:58:02.665Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-06-16T10:58:02.795Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Adding browser to stack: chromium, version: 143.0.7499.4"}
+{"level":30,"time":"2026-06-16T10:58:02.795Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-06-16T10:58:02.795Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-06-16T10:58:02.802Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-06-16T10:58:02.802Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@dddc18ee7588a1c00afa28d0845f7aac\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=f093e8af-47da-41ce-8b72-5e551b7a4f51\"}"}
+{"level":30,"time":"2026-06-16T10:58:02.809Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Setting default timeout for context context=d6d17353-1fcb-42a0-a834-7d60e71d00e6 to 10000"}
+{"level":30,"time":"2026-06-16T10:58:02.809Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Changed active context: context=d6d17353-1fcb-42a0-a834-7d60e71d00e6"}
+{"level":30,"time":"2026-06-16T10:58:02.908Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Video path: undefined"}
+{"level":30,"time":"2026-06-16T10:58:02.908Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Changed active page"}
+{"level":30,"time":"2026-06-16T10:58:03.080Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method newPage"}
+{"level":30,"time":"2026-06-16T10:58:03.084Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method getText"}
+{"level":30,"time":"2026-06-16T10:58:03.084Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Strict mode is enabled, find Locator with h1 in page."}
+{"level":30,"time":"2026-06-16T10:58:03.150Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Retrieved text for element h1 containing Tauri Robot Demo"}
+{"level":30,"time":"2026-06-16T10:58:03.150Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method getText"}
+{"level":30,"time":"2026-06-16T10:58:03.154Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-06-16T10:58:03.157Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Removed page=cb8546dd-8ac4-4bf4-be1a-ad0a33155f11 from context=d6d17353-1fcb-42a0-a834-7d60e71d00e6 page stack"}
+{"level":30,"time":"2026-06-16T10:58:03.257Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:12672:15)
@@ -51,7 +71,95 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2026-06-15T10:58:41.306Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-06-15T10:58:41.307Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-06-15T10:58:41.574Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2026-06-15T10:58:41.574Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2026-06-16T10:58:03.263Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-06-16T10:58:03.263Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-06-16T10:58:03.268Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-06-16T10:58:03.268Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-06-16T10:58:03.271Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-06-16T10:58:03.375Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Adding browser to stack: chromium, version: 143.0.7499.4"}
+{"level":30,"time":"2026-06-16T10:58:03.375Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-06-16T10:58:03.375Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-06-16T10:58:03.387Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-06-16T10:58:03.388Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@cfb8d1fdf028c463cedc91106e0feac5\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=44ecce67-58d6-4a85-bfd4-5297d233f754\"}"}
+{"level":30,"time":"2026-06-16T10:58:03.398Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Setting default timeout for context context=b1f075b0-9b88-4d07-bd2b-ca281aeaaee6 to 10000"}
+{"level":30,"time":"2026-06-16T10:58:03.398Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Changed active context: context=b1f075b0-9b88-4d07-bd2b-ca281aeaaee6"}
+{"level":30,"time":"2026-06-16T10:58:03.522Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Video path: undefined"}
+{"level":30,"time":"2026-06-16T10:58:03.522Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Changed active page"}
+{"level":30,"time":"2026-06-16T10:58:03.661Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method newPage"}
+{"level":30,"time":"2026-06-16T10:58:03.670Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-06-16T10:58:03.670Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Strict mode is enabled, find Locator with [data-testid=\"submit-btn\"] in page."}
+{"level":30,"time":"2026-06-16T10:58:03.749Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Retrieved dom property for element [data-testid=\"submit-btn\"] containing true"}
+{"level":30,"time":"2026-06-16T10:58:03.749Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-06-16T10:58:03.770Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-06-16T10:58:03.773Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Removed page=f0783d3c-7933-4bc5-afc5-ae7d0ee655f6 from context=b1f075b0-9b88-4d07-bd2b-ca281aeaaee6 page stack"}
+{"level":30,"time":"2026-06-16T10:58:03.876Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-06-16T10:58:03.882Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-06-16T10:58:03.882Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-06-16T10:58:03.886Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-06-16T10:58:03.886Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-06-16T10:58:03.891Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-06-16T10:58:04.012Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Adding browser to stack: chromium, version: 143.0.7499.4"}
+{"level":30,"time":"2026-06-16T10:58:04.012Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-06-16T10:58:04.013Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-06-16T10:58:04.021Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-06-16T10:58:04.021Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@4823d06509a2e0ee0a5535b6c798ba2e\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=ca770bf2-7202-45ee-a2ca-9f9a8b9b8b83\"}"}
+{"level":30,"time":"2026-06-16T10:58:04.029Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Setting default timeout for context context=373be23c-15e8-4557-98aa-131cf031eabe to 10000"}
+{"level":30,"time":"2026-06-16T10:58:04.029Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Changed active context: context=373be23c-15e8-4557-98aa-131cf031eabe"}
+{"level":30,"time":"2026-06-16T10:58:04.179Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Video path: undefined"}
+{"level":30,"time":"2026-06-16T10:58:04.182Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Changed active page"}
+{"level":30,"time":"2026-06-16T10:58:04.330Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method newPage"}
+{"level":30,"time":"2026-06-16T10:58:04.336Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-06-16T10:58:04.336Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Strict mode is enabled, find Locator with [data-testid=\"name-input\"] in page."}
+{"level":30,"time":"2026-06-16T10:58:04.403Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method fillText"}
+{"level":30,"time":"2026-06-16T10:58:04.409Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-06-16T10:58:04.409Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Strict mode is enabled, find Locator with [data-testid=\"submit-btn\"] in page."}
+{"level":30,"time":"2026-06-16T10:58:04.447Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Retrieved dom property for element [data-testid=\"submit-btn\"] containing false"}
+{"level":30,"time":"2026-06-16T10:58:04.447Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-06-16T10:58:04.453Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-06-16T10:58:04.464Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Removed page=fe2efb12-bc15-4023-8d15-34a4a7d4cdbd from context=373be23c-15e8-4557-98aa-131cf031eabe page stack"}
+{"level":30,"time":"2026-06-16T10:58:04.580Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-06-16T10:58:04.586Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-06-16T10:58:04.586Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-06-16T10:58:04.595Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-06-16T10:58:04.595Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-06-16T10:58:04.684Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-06-16T10:58:04.684Z","pid":7156,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method closeAllBrowsers"}

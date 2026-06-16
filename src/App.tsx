@@ -4,6 +4,10 @@ function App() {
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
 
+  const handleSubmit = () => {
+    setMessage(`Hello ${name}`);
+  };
+
   return (
     <div>
       <h1>Tauri Robot Demo</h1>
@@ -12,12 +16,20 @@ function App() {
         data-testid="name-input"
         placeholder="Enter name"
         value={name}
-        onChange={(e) => setName(e.target.value)}
+        onChange={(e) => {
+          setName(e.target.value);
+
+          // Clear previous greeting when input is emptied
+          if (e.target.value.trim() === "") {
+            setMessage("");
+          }
+        }}
       />
 
       <button
         data-testid="submit-btn"
-        onClick={() => setMessage(`Hello ${name}`)}
+        disabled={name.trim() === ""}
+        onClick={handleSubmit}
       >
         Submit
       </button>
