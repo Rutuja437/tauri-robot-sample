@@ -1,0 +1,57 @@
+{"level":30,"time":"2026-06-15T10:58:39.818Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Listening on 127.0.0.1:54909"}
+{"level":30,"time":"2026-06-15T10:58:39.898Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-06-15T10:58:40.195Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Adding browser to stack: chromium, version: 143.0.7499.4"}
+{"level":30,"time":"2026-06-15T10:58:40.197Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-06-15T10:58:40.197Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-06-15T10:58:40.204Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-06-15T10:58:40.205Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@8820250134a895f67c42f7fae300e476\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=7bdd6232-65ec-42dd-8e5b-89c7374606e0\"}"}
+{"level":30,"time":"2026-06-15T10:58:40.217Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Setting default timeout for context context=d155d0d8-e8cb-4ecd-9cad-4ed61b26b700 to 10000"}
+{"level":30,"time":"2026-06-15T10:58:40.217Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Changed active context: context=d155d0d8-e8cb-4ecd-9cad-4ed61b26b700"}
+{"level":30,"time":"2026-06-15T10:58:40.452Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Video path: undefined"}
+{"level":30,"time":"2026-06-15T10:58:40.453Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Changed active page"}
+{"level":30,"time":"2026-06-15T10:58:40.754Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method newPage"}
+{"level":30,"time":"2026-06-15T10:58:40.768Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-06-15T10:58:40.769Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Strict mode is enabled, find Locator with [data-testid=\"name-input\"] in page."}
+{"level":30,"time":"2026-06-15T10:58:40.891Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method fillText"}
+{"level":30,"time":"2026-06-15T10:58:40.898Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method click"}
+{"level":30,"time":"2026-06-15T10:58:40.899Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Strict mode is enabled, find Locator with [data-testid=\"submit-btn\"] in page."}
+{"level":30,"time":"2026-06-15T10:58:40.963Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method click"}
+{"level":30,"time":"2026-06-15T10:58:40.968Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method getText"}
+{"level":30,"time":"2026-06-15T10:58:40.968Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Strict mode is enabled, find Locator with [data-testid=\"greeting-msg\"] in page."}
+{"level":30,"time":"2026-06-15T10:58:41.028Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Retrieved text for element [data-testid=\"greeting-msg\"] containing Hello Rutuja"}
+{"level":30,"time":"2026-06-15T10:58:41.028Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method getText"}
+{"level":30,"time":"2026-06-15T10:58:41.033Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-06-15T10:58:41.043Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Removed page=5b1dacf1-2964-4e4a-bb47-69d97944cf5a from context=d155d0d8-e8cb-4ecd-9cad-4ed61b26b700 page stack"}
+{"level":30,"time":"2026-06-15T10:58:41.286Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-06-15T10:58:41.296Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-06-15T10:58:41.297Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\RUTUJA DESHPANDE\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-06-15T10:58:41.306Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-06-15T10:58:41.307Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-06-15T10:58:41.574Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-06-15T10:58:41.574Z","pid":7816,"hostname":"DESKTOP-MCRGEC1","msg":"End of node method closeAllBrowsers"}
